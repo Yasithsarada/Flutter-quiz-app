@@ -12,7 +12,7 @@ class QuestionSummury extends StatelessWidget {
         child: Column(
           children: summuryData
               .map((data) =>
-                  //mapped data
+                  //mapped
                   Row(
                     children: [
                       Text(((data['question-index'] as int) + 1).toString()),
@@ -24,7 +24,7 @@ class QuestionSummury extends StatelessWidget {
                             ),
                             Text(data['question'] as String),
                             const SizedBox(
-                              height: 8,
+                              height: 5,
                             ),
                             Text(data['user-answer'] as String),
                             const SizedBox(
