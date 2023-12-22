@@ -13,9 +13,10 @@ class QuestionSummury extends StatelessWidget {
           children: summuryData
               .map((data) =>
 
-                  //mapped data..
+                  
 
-                  //mapped
+
+                  //mapped data..
 
                   Row(
                     children: [
