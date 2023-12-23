@@ -33,7 +33,7 @@ class QuestionSummury extends StatelessWidget {
                               height: 5,
                             ),
                             Text(data['correct-answer'] as String),
-                          ],
+                          ], //mapped data
                         ),
                       ),
                     ],
