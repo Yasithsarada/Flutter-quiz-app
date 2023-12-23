@@ -15,8 +15,6 @@ class QuestionSummury extends StatelessWidget {
 
                   //mapped data..
 
-                  //mapped
-
                   Row(
                     children: [
                       Text(((data['question-index'] as int) + 1).toString()),
